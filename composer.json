@@ -1,0 +1,20 @@
+{
+    "name": "bangtech/ztdx_sms",
+    "description": "bangtech2020_ztdx sms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "郭帅",
+            "email": "guoshuai@bangtech.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bangtch\\ztdxsms\\lib\\": "lib/",
+            "Bangtch\\ztdxsms\\http\\": "http/",
+            "Bangtch\\ztdxsms\\exception\\": "exception/"
+        }
+    }
+}
